@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Counter from "./Counter";
+import GenerateToken from "./spotify/spotify_functions";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           Discovering React
         </p>
       </header>
+        <GenerateToken />
         <Counter />
     </div>
   );
