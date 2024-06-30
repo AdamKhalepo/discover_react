@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Counter from "./Counter";
-import GenerateToken from "./spotify/spotify_functions";
+import GenerateToken from "./spotify/GenerateToken";
+import SpotifyLogIn from "./spotify/SpotifyLogIn";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       </header>
         <GenerateToken />
         <Counter />
+      <br/>
+      <SpotifyLogIn />
     </div>
   );
 }
